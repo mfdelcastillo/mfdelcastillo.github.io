@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    color: red;
+    height: 20px;
+}
+
+.aboutMe {
+    width: 25%;
+    background-color: red;
+}
+
+.aboutMe > article {
+    background-color: orange;
+}
+.projects > div{
+    display: inline-block;
+    height: 15vh;
+    width: 20vw;
+}
